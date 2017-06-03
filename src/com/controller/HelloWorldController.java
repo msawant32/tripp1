@@ -123,8 +123,12 @@ public class HelloWorldController {
 		modelmap.put("bus2", main  );
 		return new ModelAndView("home", modelmap);  
 	}
-	
-	
+
+	/**
+	 * Get weather for the zip code
+	 * @param zipCode
+	 * @return
+     */
 	public String getWeather(String zipCode)
 	{
 		StringBuffer strBuff = new StringBuffer();
