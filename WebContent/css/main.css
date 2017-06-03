@@ -1,0 +1,290 @@
+/* .container
+{
+	background-image: url('../images/food1.jpg');
+} */
+/*  
+body {
+ margin: 0;
+ background-image: url('../images/food1.jpg');
+ background-size: 1500px 800px;  
+ background-repeat:no-repeat;
+ 
+ display: compact;
+ font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+body {
+    overflow-x: hidden;
+    padding-top: 140px; 
+}
+
+/* p {
+    font-size: 18px;
+}
+
+p.small {
+    font-size: 16px;
+} */
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    /* color: #18bc9c; */
+    color: #05A1E6;
+    cursor: pointer;
+}
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+} */
+
+.btn-primary {
+    /* background: #0099cc; */
+    background: #05A1E6;
+    color: #ffffff;
+}
+
+.navbar-default {
+    background-color: #9AF2CE;
+    border-color: #D7D1D1;
+}
+
+
+
+select{
+	background-color:#ffffff;
+}
+
+button{
+	border:0;
+	border:none; 
+}
+
+button:hover{
+	border:0;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.bckimage
+{
+	background-image: url('../images/mainimage1.jpg');
+	/*background-size: 1250px 800px;*/
+	background-size: 100% 100%;
+	background-repeat:no-repeat;  
+	  
+}  
+
+.fixOverlayDiv{
+    position: relative;
+    width:100%; 
+    padding:0px;
+}
+
+.OverlayText{
+    background-color: #AFD5E6;  
+    bottom: 0;
+    color: #121111;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+   /*  width: 100%; */
+    
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 30%;
+    margin-left: 25%;
+    /* border-color: #E80808;
+    border-style: double; */
+    border-color: #CDC9C9;
+    border-style: solid;
+}
+
+
+.login
+{
+	margin-top:-12%;
+	margin-left: 72%;
+}
+
+.checkout
+  {
+     margin-top:-16%;
+     margin-left: 86%;
+  }
+
+	.showdishButton
+	{
+		width:45%;
+	}
+
+ .dishrestaurants
+  {
+  /*  margin-left:14px; */
+   /* width:87%;
+   margin-top:10px;  */
+  /*  background:#F6F6F5; */
+   /* padding: 6px 12px; */
+  }
+  
+   .hiddensection-mobile{
+  	display: none;
+  }
+
+  .divBtn
+  {
+    margin-left:3px;
+    margin-top:10px; 
+  }
+  
+ .tabclass
+ {
+ 	background-color: #9CE1A0;
+ 	color: black;"
+ } 
+ 
+span.glyphicon {
+    font-size: 1.2em;
+}
+
+ span.glyphicon-minus-sign {
+    font-size: 1.5em;
+    top: 5px;
+}
+
+span.glyphicon-plus-sign {
+    font-size: 1.5em;
+    top: 5px;
+}
+
+  
+.menuheader{
+	 text-transform: uppercase;
+	 color: brown;
+}
+
+  
+  
+.imagewrap {display:inline-block;position:relative;}
+.dishinfo {position:absolute;bottom:0;left:0;}
+.dishinfo1 {position:absolute;bottom:0;right:0;}
+.dishinfo2 {position:absolute;right:50%;top:50%;}
+  
+
+/* .placeholder{color: grey;}
+select option:first-child{color: grey; display: none;}
+select option{color: #555;} */  
+ 
+/* Portrait */
+@media(max-width:767px){
+	
+  body {
+        font-size: 0.8em; /* 0.8x default size */
+        }	
+	
+  .login
+  {
+     margin-top:-120px;
+     margin-left: 70%;
+  }
+  
+  .checkout
+  {
+     margin-top:-70px;
+     margin-left: 70%;
+  }
+  
+  .goButton
+  {
+    width:100%;
+  }
+	
+  .showdishButton
+  {
+		width:47%;
+		margin-bottom:14px;
+  }
+	
+  .dishrestaurants
+  {
+   width:92%;
+   margin-top:10px; 
+   background:#F6F6F5;
+   padding: 1px 2px;
+  }
+  
+  .hiddensection-mobile{
+  	display: block;
+  }
+  
+    .hiddensection{
+  	display: none;
+  }
+  
+  .small{
+  	font-size:small;
+  }
+  .xsmall
+  {
+  font-size:x-small;
+   }
+   .xxsmall
+  {
+  font-size:xx-small;
+   }
+   
+    .restCol
+  {
+     padding: 1px 1px 1px 1px;
+   }
+   
+   .divBtn
+  {
+    margin-left:3px;
+    margin-top:-4px; 
+  }
+
+}
+
+/* Small iPad */
+@media(min-width:768px) and (max-width:991px) 
+{
+  body {
+        font-size: 1.2em; /* 0.8x default size */
+        }	
+  	
+	.login
+  {
+     margin-top:-120px;
+     margin-left: 80%;
+  }
+ 
+}
+	
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+	/* body {
+        font-size: 1.5em; 0.8x default size
+        } */
+}
+
+/* Large */
+@media(min-width:1200px){
+	
+	/* body {
+        font-size: 1.7em; 0.8x default size
+        } */
+	
+}
+
+
+
